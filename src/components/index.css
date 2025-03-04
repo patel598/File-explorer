@@ -1,0 +1,36 @@
+.explorer-container {
+    padding: 10px;
+}
+
+.open {
+    display: block;
+    padding-left: 10px;
+}
+
+.close {
+    display: none;
+}
+
+.explorer-body{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    /* border: 1px solid gray; */
+    align-items: center;
+    padding: 3px;
+}
+.btn{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    height: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.editBtn{
+    color: orange;
+}
+.deleteBtn{
+    color: red;
+}
